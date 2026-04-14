@@ -1,8 +1,23 @@
 :root {
-    --text-white: #ffffff;
-    --light-beige: #fee9da;
-    --medium-beige: #fbcea6;
-    --heavy-beige: #dbad89;
-    --dark-beige: #c1642f;
+    --text: #fceee9;
+    --lightest: #dde6d5;
+    --medium: #f8d3c5;
+    --dark: #a3b899;
+    --darkest: #667b68;
 }
+
+body {
+    font-family: "Open Sans" sans-serif;
+}
+
+.title {
+    padding: 150px;
+    margin: 0;
+    text-align: center;
+    background-color: var(--darkest);
+    color: var(--text);
+    font-size: 120px;
+    font-style: italic;
+}
+
 
