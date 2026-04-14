@@ -1,6 +1,6 @@
 :root {
     --text: #fceee9;
-    --lightest: #dde6d5;
+    --light: #dde6d5;
     --medium: #f8d3c5;
     --dark: #a3b899;
     --darkest: #667b68;
@@ -8,6 +8,7 @@
 
 body {
     font-family: "Open Sans" sans-serif;
+    background-color: var(--medium);
 }
 
 .title {
@@ -20,4 +21,24 @@ body {
     font-style: italic;
 }
 
+.main-list {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--dark);
+    text-align: center;
+    font-size: 40px;
+    list-style-type: none;
+}
 
+.main-list, li {
+    padding: 20px 20px;
+}
+
+.list-item {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.list-item:hover {
+    color: var(--medium);
+}
