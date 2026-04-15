@@ -7,18 +7,20 @@
 }
 
 body {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Afacad", "Open Sans", sans-serif;
     background-color: var(--medium);
+    color: var(--text);
 }
 
 .title {
-    padding: 150px;
+    padding: 100px;
     margin: 0;
+    border-radius: 15px;
     text-align: center;
     background-color: var(--darkest);
-    color: var(--text);
-    font-size: 120px;
+    font-size: 60px;
     font-style: italic;
+    flex: 1;
 }
 
 .main-list {
@@ -28,10 +30,15 @@ body {
     text-align: center;
     font-size: 40px;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .main-list, li {
     padding: 20px 20px;
+    border: 4px solid var(--darkest);
+    border-radius: 15px;
 }
 
 .list-item {
@@ -41,4 +48,82 @@ body {
 
 .list-item:hover {
     color: var(--medium);
+}
+
+.opening-box {
+    display: flex;
+    background-color: var(--darkest);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 100px;
+}
+
+.title-recipe {
+    font-style: italic;
+    font-size: 60px;
+}
+
+.image {
+    height: 200px;
+    border-radius: 15px;
+}
+
+.subtitle {
+    background-color: var(--dark);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.description-box {
+    display: flex;
+    background-color: var(--darkest);
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 500px;
+    border: 2px solid var(--medium);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    border-radius: 15px;
+    background-color: var(--darkest);
+    margin-top: 40px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.list-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.ingredients {
+    flex: 1;
+    list-style-type: disc;
+    font-style: bold;
+    font-size: 24px;
+    border: 2px solid var(--medium);
+    border-radius: 15px;
+}
+
+.instructions {
+    flex: 1;
+    font-style: bold;
+    font-size: 24px;
+    border: 2px solid var(--medium);
+    border-radius: 15px;
 }
