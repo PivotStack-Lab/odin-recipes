@@ -74,6 +74,7 @@ body {
     background-color: var(--dark);
     text-align: center;
     font-size: 40px;
+    font-style: italic;
     border-radius: 15px;
     padding: 20px;
 }
@@ -113,7 +114,7 @@ body {
 
 .heading {
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .ingredients {
@@ -130,5 +131,24 @@ body {
     font-style: bold;
     font-size: 24px;
     border: 2px solid var(--medium);
+    border-radius: 15px;
+}
+
+.footer{
+    background-color: var(--dark);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.home-button {
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--darkest);
     border-radius: 15px;
 }
