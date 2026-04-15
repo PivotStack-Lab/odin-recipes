@@ -99,7 +99,7 @@ body {
 .box {
     display: flex;
     border-radius: 15px;
-    background-color: var(--darkest);
+    background-color: var(--medium);
     margin-top: 40px;
     padding: 20px;
     justify-content: space-between;
@@ -122,7 +122,7 @@ body {
     list-style-type: disc;
     font-style: bold;
     font-size: 24px;
-    border: 2px solid var(--medium);
+    background-color: var(--darkest);
     border-radius: 15px;
 }
 
@@ -130,7 +130,7 @@ body {
     flex: 1;
     font-style: bold;
     font-size: 24px;
-    border: 2px solid var(--medium);
+    background-color: var(--darkest);
     border-radius: 15px;
 }
 
