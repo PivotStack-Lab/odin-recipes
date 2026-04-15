@@ -111,6 +111,11 @@ body {
     margin: 20px;
 }
 
+.heading {
+    text-align: center;
+    font-size: 18px;
+}
+
 .ingredients {
     flex: 1;
     list-style-type: disc;
